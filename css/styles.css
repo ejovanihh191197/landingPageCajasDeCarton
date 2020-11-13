@@ -1,0 +1,421 @@
+@import url('https://fonts.googleapis.com/css2?family=Patua+One&family=Raleway:ital,wght@1,500&display=swap');
+
+:root{
+    --main-color: #4f2e00;
+}
+
+body{
+    background-image: url(../img/bl.png);
+    height: 100vh;
+    background-repeat: repeat-x;
+    background-attachment: fixed;
+}
+
+.main-header{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 38vmin;
+    position: fixed;
+    z-index: 1;
+    background-color: white;
+
+}
+
+.main-header__logo{
+    padding: 5px;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-header__titulo{
+    width:60%;
+    height: 100%;
+}
+
+#main-header__titulo-contenido{
+    font-family: 'Patua One', cursive;
+    height: 50%;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 3vmax;
+    padding-top: 7px;
+}
+
+.main-header__contactos{
+    width: 100%;
+    height: 50%;
+    font-family: 'Raleway', sans-serif;
+    font-size: 12px;
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.main-header__contactos-we{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+}
+#main-header__contactos-we-icono{
+    height: 70%;
+    margin-left: 3px;
+    margin-right: 5px;
+}
+
+.main-contenedor{
+    width: 100%;
+    padding-top: 38vmin;;
+}
+
+.main-titular-base{
+    margin: auto;
+    color: var(--main-color);
+    font-family: 'Patua One', cursive;
+    text-align: center;
+    padding: 5px;
+    width: 95%;
+}
+
+.titulo{
+    font-size: xx-large;
+    border-bottom: solid 3px var(--main-color);
+}
+
+.subtitulo{
+    font-size: larger;
+}
+
+.main-producto{
+    width: 100%;
+    display: flex;
+}
+
+.main-producto img{
+    margin: auto;
+}
+
+.main-contenedor__imagen{
+   width: 100%;
+   display: flex;
+   align-items: center;
+  justify-content: center;
+}
+
+.main-beneficios{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main-beneficios_item{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    width: 90%;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+.main-beneficios_item-img{
+    width: 10%;
+    display: inline-block;
+    justify-content: center;
+}
+.main-beneficios_item-txt{
+    width: 90%;
+    padding: 5px;
+    display: inline-block;
+    color: var(--main-color);
+    height: auto;
+    font-family: 'Raleway', sans-serif;
+    font-size: medium;
+}
+.main-form{
+    width: 90%;
+    margin: auto;
+}
+
+.main-form__cabecera{
+    width: 100%;
+    margin: auto;
+    padding: 5px;
+    background-color: var(--main-color);
+    border-radius: 5px 5px 0 0;
+    color: white;
+    font-family: 'Patua One', cursive;
+    text-align: center;
+    font-size: x-large;
+    -webkit-box-shadow: 0px -5px 17px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px -5px 17px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px -5px 17px 0px rgba(0,0,0,0.75);
+}
+
+.main-form__contenido{
+    background: rgb(255,255,255);
+    background: radial-gradient(circle, 
+                rgba(255,255,255,1) 0%, 
+                rgba(234,230,225,1) 100%);
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    -webkit-box-shadow: 0px 0px 18px -3px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 18px -3px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 18px -3px rgba(0,0,0,0.75);
+    padding: 15px;
+    border-radius: 0px 0px 3px 3px;
+}
+
+.main-form__input{
+    width: 100%;
+    margin: auto;
+    margin-top: 5px;
+    padding: 7px;
+    font-family: 'Raleway', sans-serif;
+    border-radius: 8px 8px 8px 8px;
+    border: solid 1px darkgray;
+    color: var(--main-color);
+}
+
+.main-form__contenido span{
+    font-size: xx-small;
+    font-family: 'Raleway', sans-serif;
+    width: 100%;
+}
+
+.main-form__submit{
+    border-radius: 10px 10px 10px 10px;
+    border: solid 1px var(--main-color);
+    padding: 7px;
+    margin: auto;
+    margin-top: 10px;
+    color: white;
+    background-color: var(--main-color);
+    font-family: 'Patua One', cursive;
+}
+
+.main-form__submit:hover{
+    color: var(--main-color);
+    background-color: white;
+}
+
+.main-caracteristicas{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main-caracteristicas__item{
+    width: 50%;
+    padding: 7px;
+}
+.main-caracteristicas__item-txt{
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    color: var(--main-color);
+}
+
+.main-barra-lateral{
+    background-color: var(--main-color);
+    color: white;
+    padding: 7px;
+    margin-top: 5px;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    width: 100%;
+}
+
+.main-barra-lateral button{
+    display: block;
+    border: solid 2px var(--main-color);
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px 5px 5px 5px;
+    font-family: 'Patua One', cursive;
+    color: var(--main-color);
+    margin: auto;
+    margin-top: 5px;
+}
+
+.barra-media{
+    font-family: 'Patua One', cursive;
+    margin-bottom: 10px;
+    font-size: larger;
+    width: 100%;
+}
+
+.main-testimonios{
+    width: 100%;
+}
+
+.main-testimonios__item{
+    width: 90%;
+    margin: auto;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border: solid 1px var(--main-color);
+    border-radius: 10px 10px 10px 10px;
+    margin-bottom: 8px;
+}
+.main-footer{
+    width: 100%;
+}
+
+.main-testimonios__item-foto{
+    padding: 4px;
+    width: 25%;
+}
+.main-testimonios__item-informacion{
+    width: 75%;
+    padding: 4px;
+    font-family: 'Patua One', cursive;
+}
+.main-testimonios__item-inf-cargo{
+    font-size: small;
+}
+.main-testimonios__item-contenido{
+    padding: 7px;
+    text-align: justify;
+    font-family: 'Raleway', sans-serif;
+}
+/*Mobile M*/
+@media screen and (min-width:375px){
+    .main-header{
+        height: 28vmin;
+    }
+    #main-header__titulo-contenido{
+        font-size: 17px;
+    }
+    .main-header__contactos{
+        font-size: 12px;
+    }
+    #main-header__contactos-we-icono{
+        height: 100%;
+        padding: 1px;
+        margin-right: 2px;
+    }
+    .main-beneficios_item-img{
+        width: 8%;
+    }
+}
+/*Mobile L*/
+@media screen and (min-width:425px){
+    #main-header__titulo-contenido{
+        font-size: 20px;
+    }
+    .main-beneficios_item-img{
+        width: 8%;
+    }
+}
+/*Tablet*/
+@media screen and (min-width:712px){
+    .main-header{
+        height: 12vmax;
+    }
+    #main-header__titulo-contenido{
+        font-size: 23px;
+    }
+    .main-header__contactos-we{
+        width: 50%;
+        height: 100%;
+    }
+    #main-header__contactos-we-icono{
+        height: 60%;
+    }
+    .main-contenedor{
+        padding-top: 130px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .main-contenedor__bloque{
+        width: 50%;
+    }
+    .bloque-titular{
+        order: -3;
+    }
+    .bloque-titular2 {
+        order: -2;
+    }
+    .main-beneficios{
+        order: -1;
+    }
+    .main-beneficios{
+        margin-top: 12px;
+        margin-bottom: 12px;
+    }
+    .main-beneficios_item{
+        width: 30%;
+        padding: 0;
+    }
+    .main-beneficios_item-img{
+        width: 12%;
+    }
+    .main-beneficios_item-txt{
+        width: 88%;
+    }
+    .main-caracteristicas__item{
+        width: 25%;
+    }
+    .barra-media{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 60px;
+        font-size: x-large;
+    }
+    .main-testimonios{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .main-testimonios__item{
+        width: 40%;
+    }
+    .main-testimonios__item-foto{
+        width: 140px;
+    }
+    .main-testimonios__item-informacion{
+        width: 100%;
+        text-align: center;
+        font-size: larger;
+    }
+}
+/*Laptop 1024*/
+@media screen and (min-width:1024px){
+    #main-header__titulo-contenido{
+        font-size: 3vmax;
+    }
+    #main-header__logo-img{
+        width: 35%;
+    }
+    .main-header__contactos-we{
+        width: 50%;
+        height: 100%;
+        font-size: 20px;
+    }
+    .main-contenedor{
+        padding-top: 160px;
+        width: 75%;
+        margin: auto;
+    }
+    #main-header__titulo-contenido{
+        /*font-size: 40px;*/
+    }
+    #main-header__contactos-we-icono{
+        height: 55%;
+    }
+}
+
+@media screen and (min-width:1440px){
+    #main-header__logo-img{
+        width: 38%;
+    }
+    .main-contenedor{
+       width: 75%;
+       margin: auto;
+    }
+}
